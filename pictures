@@ -1,0 +1,20 @@
+using System;
+
+namespace ConsoleApp1
+{
+class Program
+{
+static void Main(string[] args)
+{
+int amountOfPhotos = 52;
+int photosPerRow = 3;
+
+int amountOfFullRows = amountOfPhotos / photosPerRow;
+
+int overflowCount = amountOfPhotos % photosPerRow;
+
+Console.WriteLine($"Amount of filled rows: {amountOfFullRows}");
+Console.WriteLine($"Photos that dont fit: {overflowCount}");
+}
+}
+}
