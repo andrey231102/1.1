@@ -1,0 +1,21 @@
+using System;
+
+namespace ConsoleApp1
+{
+class Program
+{
+static void Main(string[] args)
+{
+int numberOfCoins;
+string villageName;
+bool isAlive;
+char symbol;
+ushort myMoney;
+ulong aLotOfMoney;
+byte salary;
+decimal debts;
+long result;
+ushort maxHealth;
+}
+}
+}
