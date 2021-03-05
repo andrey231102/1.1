@@ -1,0 +1,22 @@
+using System;
+
+namespace ConsoleApp1
+{
+class Program
+{
+static void Main(string[] args)
+{
+Console.WriteLine("How many people in the queue?");
+int amountOfPeople = Convert.ToInt32(Console.ReadLine());
+
+int receptionTimeInMin = 10;
+
+int yourWaitingTimeInMin = amountOfPeople * receptionTimeInMin;
+
+int hours = yourWaitingTimeInMin / 60;
+int minutes = yourWaitingTimeInMin - hours*60;
+
+Console.WriteLine($"U have to stay int the queue for {hours} hours and {minutes} minutes");
+}
+}
+}
